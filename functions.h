@@ -1,6 +1,6 @@
 #ifndef randchar_H
 #define randchar_H
 
-void randchar();
+char randchar();
 
 #endif
