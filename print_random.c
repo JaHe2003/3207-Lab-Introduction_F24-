@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "functions.h"
 
+char randchar(); // Declare the randchar() function
+
 char* rand_string_alloc(size_t size)
 {
      char *s = malloc(size + 1);
