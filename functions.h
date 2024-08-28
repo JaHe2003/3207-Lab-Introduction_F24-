@@ -1,6 +1,6 @@
-#ifndef randchar_H
-#define randchar_H
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 
-char getRandomChar();
+char randchar();
 
 #endif

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "functions.h"
 
 char* rand_string_alloc(size_t size)
@@ -14,7 +15,8 @@ char* rand_string_alloc(size_t size)
 }
 
 int main() {
-    char *random_string = rand_string_alloc(10);
+    srand(time(NULL)); 
+    char *random_string = rand_string_alloc(7);
     printf("%s\n", random_string);
     free(random_string);
     return 0;
