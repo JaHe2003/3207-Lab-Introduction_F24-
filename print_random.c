@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "functions.h"
 
-char randchar(); // Declare the randchar() function
+char randchar(); 
 
 char* rand_string_alloc(size_t size)
 {
