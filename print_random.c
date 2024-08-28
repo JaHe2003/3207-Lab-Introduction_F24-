@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>  
 #include "functions.h"
 
+char* rand_string_alloc(size_t size);
 char randchar(); 
 
 char* rand_string_alloc(size_t size)
