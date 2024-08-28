@@ -1,6 +1,6 @@
 #ifndef randchar_H
 #define randchar_H
 
-char randchar();
+char getRandomChar();
 
 #endif
